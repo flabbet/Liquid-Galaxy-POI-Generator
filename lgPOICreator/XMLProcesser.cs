@@ -6,7 +6,7 @@ using System.Xml;
 using System.Xml.Linq;
 
 namespace lgPOICreator
-{
+{ //t
     public class KMLProcesser
     {
         public static void ProcessFiles(string[] files, string fileName, string planet)
