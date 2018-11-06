@@ -15,8 +15,9 @@ namespace lgPOICreator
             {
                 string name = GetValueFromTag(files[i], "Placemark").Item(0).FirstChild.InnerText;
                 XmlNodeList geoInfoNodes = GetValueFromTag(files[i], "LookAt", "Camera").Item(0).ChildNodes;
-                 string content = string.Format(@"Earth@{0}@flytoview=<LookAt><longitude>{1}</longitude><latitude>{2}</latitude><altitude>{3}</altitude><heading>{4}</heading>
-                <tilt>{5}</tilt><roll>{6}</roll><gx:altitudeMode>{7}</gx:altitudeMode></LookAt>",
+                 string content = string.Format(@"{0}@{1}@flytoview=<LookAt><longitude>{2}</longitude><latitude>{3}</latitude><altitude>{4}</altitude><heading>{5}</heading>
+                <tilt>{6}</tilt><roll>{7}</roll><gx:altitudeMode>{8}</gx:altitudeMode></LookAt>",
+                planet,
                 name,
                 geoInfoNodes.Item(0).InnerText,
                 geoInfoNodes.Item(1).InnerText,
