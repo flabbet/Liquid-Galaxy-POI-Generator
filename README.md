@@ -9,6 +9,10 @@ Generates Liquid Galaxy POI text file based on decompressed .KMZ files.
 2. cd into ```\lg_POI_generator\lgPOICreator```
 3. Type ```dotnet publish lgPOICreator.sln -c Release -r yoursystem``` (In yoursystem type your OS relating to [this](https://docs.microsoft.com/en-us/dotnet/core/rid-catalog) link.
 
+## Open in Visual Studio like program
+
+Just open .sln file
+
 # Usage
 
 1. Make sure that every file that you want to include must be in common folder.
