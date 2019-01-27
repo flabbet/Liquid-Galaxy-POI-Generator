@@ -1,5 +1,5 @@
 # Liquid-Galaxy-POI-Generator
-Generates Liquid Galaxy POI text file based on decompressed .KMZ files.
+Generates Liquid Galaxy POI text file based on decompressed .KMZ files. Project made for Google Code-in 2018
 
 # Builds
 
